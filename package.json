@@ -4,14 +4,19 @@
   "description": "A microservice template for enterprise services in nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
-    "dev": "nodemon index.js",
-    "prepare": "husky"
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "prepare": "husky",
+    "dist": "npx tsc"
   },
   "author": "Vallabh Wasule",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.5.1",
     "husky": "^9.1.5",
-    "lint-staged": "^15.2.9"
+    "lint-staged": "^15.2.9",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   }
 }
