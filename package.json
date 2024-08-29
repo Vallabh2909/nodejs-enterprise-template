@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-enterprise-template",
+  "version": "1.0.0",
+  "description": "A microservice template for enterprise services in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "nodemon index.js",
+    "prepare": "husky"
+  },
+  "author": "Vallabh Wasule",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.9"
+  }
+}
